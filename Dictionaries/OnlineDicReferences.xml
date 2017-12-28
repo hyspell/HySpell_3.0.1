@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfReferenceDictionary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ReferenceDictionary>
+    <LinkIndex>0</LinkIndex>
+    <LinkLabel>Մալխասեանց (1944)</LinkLabel>
+    <LinkURL>http://www.nayiri.com/imagedDictionaryBrowser.jsp?dictionaryId=6&amp;query=</LinkURL>
+    <LinkDescription>Հայերէն Բացատրական Բառարան – Ստեփան Մալխասեանց։ Հայկական ՍՍՌ Պետական Հրատարակչութիւն, Երեւան, 1944։</LinkDescription>
+  </ReferenceDictionary>
+  <ReferenceDictionary>
+    <LinkIndex>1</LinkIndex>
+    <LinkLabel>Աղայան (1976)</LinkLabel>
+    <LinkURL>http://www.nayiri.com/imagedDictionaryBrowser.jsp?dictionaryId=24&amp;query=</LinkURL>
+    <LinkDescription>Արդի Հայերենի Բացատրական Բառարան – Էդուարդ Բագրատի Աղայան։ «Հայաստան» Հրատարակչություն, Երեւան, 1976։</LinkDescription>
+  </ReferenceDictionary>
+  <ReferenceDictionary>
+    <LinkIndex>2</LinkIndex>
+    <LinkLabel>Սուքիասեան (1967)</LinkLabel>
+    <LinkURL>http://www.nayiri.com/imagedDictionaryBrowser.jsp?dictionaryId=25&amp;query=</LinkURL>
+    <LinkDescription>Հայոց Լեզվի Հոմանիշների Բառարան – Աշոտ Մուրադի Սուքիասյան։ Հայկական ՍՍՀ Գիտությունների Ակադեմիայի Հրատարակչություն, Երեւան, 1967։</LinkDescription>
+  </ReferenceDictionary>
+  <ReferenceDictionary>
+    <LinkIndex>3</LinkIndex>
+    <LinkLabel>Խաչատուրեան (1992)</LinkLabel>
+    <LinkURL>http://www.nayiri.com/imagedDictionaryBrowser.jsp?dictionaryId=8&amp;query=</LinkURL>
+    <LinkDescription>Հայոց Լեզուի Նոր Բառարան – Գնէլ Արքեպս. Ճէրէճեան, Փարամազ Կ. Տօնիկեան եւ Արտաշէս Տէր Խաչատուրեան։ Կ. Տօնիկեան եւ Որդիք Հրատարակչատուն, Պէյրութ, 1992։</LinkDescription>
+  </ReferenceDictionary>
+  <ReferenceDictionary>
+    <LinkIndex>4</LinkIndex>
+    <LinkLabel>Գույումճեան (1970)</LinkLabel>
+    <LinkURL>http://www.nayiri.com/imagedDictionaryBrowser.jsp?dictionaryId=3&amp;query=</LinkURL>
+    <LinkDescription>Ընդարձակ Բառարան Հայերէնէ Անգլիերէն – Մեսրոպ Կ. Գույումճեան։ Տպարան ԱՏԼԱՍ, Պէյրութ, 1970։</LinkDescription>
+  </ReferenceDictionary>
+  <ReferenceDictionary>
+    <LinkIndex>5</LinkIndex>
+    <LinkLabel>Գույումճեան (1981) Անգ.</LinkLabel>
+    <LinkURL>http://www.nayiri.com/imagedDictionaryBrowser.jsp?dictionaryId=2&amp;query=</LinkURL>
+    <LinkDescription>Ընդարձակ Բառարան Անգլիերէնէ Հայերէն – Մեսրոպ Կ. Գույումճեան։ Կ. Տօնիկեան եւ Եղբայրք, Պէյրութ, 1981։</LinkDescription>
+  </ReferenceDictionary>
+  <ReferenceDictionary>
+    <LinkIndex>6</LinkIndex>
+    <LinkLabel>Աճառեան (1926)</LinkLabel>
+    <LinkURL>http://www.nayiri.com/imagedDictionaryBrowser.jsp?dictionaryId=7&amp;query=</LinkURL>
+    <LinkDescription>Հայերէն Արմատական Բառարան – Հրաչեայ Աճառեան։ Երեւանի Համալսարանի Հրատարակչութիւն, Երեւան, 1926։</LinkDescription>
+  </ReferenceDictionary>
+</ArrayOfReferenceDictionary>

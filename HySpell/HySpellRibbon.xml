@@ -1,0 +1,35 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" onLoad="OnLoad">
+  <ribbon>
+    <tabs>
+      <tab idMso="TabReviewWord">
+        <group id="HySpell" label="HySpell" insertAfterMso="GroupProofing">
+          <splitButton id="splitBtnHySpell" size="large">
+            <button id="toggleButton1"
+                        label="Armenian Spelling"
+                        screentip="Check Armenian Spelling (Ուղղագրել)"
+                        onAction="OnClickHySpell"
+                        getImage="GetImage"
+                        getEnabled="IsEnabled" />
+            <menu id="mnuHySpell" screentip="HySpell" supertip="Հայերէն Լեզուի Ուղղագրիչ, Բառարան եւ փոխարկիչ" getEnabled="IsEnabled">
+              <button id="btnCheckSpelling" label="Check Armenian Spelling (Ուղղագրել)" onAction="OnCheckSpelling" getImage="GetImage"  getEnabled="IsEnabled" />
+              <button id="btnThesaurus" label="Thesaurus (Բառագանձ)..." onAction="OnClickThesaurus" getImage="GetImage"  getEnabled="IsEnabled" />
+              <menuSeparator/>
+              <menu id="mnuConvert" label="Convert Orthography (Փոխարկել Ուղղագրութիւնը)" getImage="GetImage">
+                <button id="btnToReformed" label="To Reformed (Նոր ուղղագրութեան)" onAction="OnClickToReformed" getImage="GetImage"  getEnabled="IsEnabled" />
+                <button id="btnToClassic" label="To Classical (Դասական ուղղագրութեան)" onAction="OnClickToClassical" getImage="GetImage"  getEnabled="IsEnabled" />
+              </menu>
+              <menuSeparator/>
+              <menu id="mnuConvertToUTF8" label="Convert ARMSCII-8 to UNICODE (Փոխարկել Նիշքը)" getImage="GetImage">
+                <button id="btnConvertCustomDic" label="Custom.dic" onAction="OnClickConvertCustomDic" getImage="GetImage"  getEnabled="IsEnabled" />
+                <button id="btnConvertOther" label="Any TEXT file (Այլ նիշք)" onAction="OnClickConvertOther" getImage="GetImage"  getEnabled="IsEnabled" />
+              </menu>
+              <menuSeparator/>
+              <button id="btnHySpellOptions" label="Options (Ընտրանք)..." onAction="OnClickOptions" getImage="GetImage"  getEnabled="IsEnabled"/>
+            </menu>
+          </splitButton>          
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
+

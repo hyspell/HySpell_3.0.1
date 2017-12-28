@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfApplicationInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ApplicationInfo>
+    <ProductID>FILES</ProductID>
+    <ProductName>HySpell 3.0 Armenian Spellchecker for Office</ProductName>
+    <Publisher>HySpell</Publisher>
+    <Version>3.0.0</Version>
+  </ApplicationInfo>
+  <ApplicationInfo>
+    <ProductID>SPELLCHECKER</ProductID>
+    <ProductName>HySpell 3.0</ProductName>
+    <Publisher>HySpell</Publisher>
+    <Version>3.0.0.0</Version>
+  </ApplicationInfo>
+</ArrayOfApplicationInfo>

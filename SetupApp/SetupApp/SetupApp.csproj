@@ -122,8 +122,12 @@
     <Content Include="armentwe\ia64\ArmenTWE.dll" />
     <Content Include="armentwe\setup.exe" />
     <Content Include="armentwe\wow64\ArmenTWE.dll" />
-    <Content Include="Files\ApplicationVersionInfo.xml" />
-    <Content Include="Files\UserGuide.pdf" />
+    <Content Include="Files\ApplicationVersionInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Files\UserGuide.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="armentwe\ArmenTWE_amd64.msi" />
     <Content Include="armentwe\ArmenTWE_i386.msi" />
     <Content Include="armentwe\ArmenTWE_ia64.msi" />
@@ -133,32 +137,84 @@
     <Content Include="OfficeCustomizationOL\x86\setup.exe">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="OfficeCustomization\x64\Application Files\HySpell_3_0_0_0\Hunspellx64.dll.deploy" />
-    <Content Include="OfficeCustomization\x64\Application Files\HySpell_3_0_0_0\Hunspellx86.dll.deploy" />
-    <Content Include="OfficeCustomization\x64\Application Files\HySpell_3_0_0_0\HySpell.dll.deploy" />
-    <Content Include="OfficeCustomization\x64\Application Files\HySpell_3_0_0_0\HySpell.dll.manifest" />
-    <Content Include="OfficeCustomization\x64\Application Files\HySpell_3_0_0_0\HySpell.vsto" />
-    <Content Include="OfficeCustomization\x64\Application Files\HySpell_3_0_0_0\HySpellEncoder.dll.deploy" />
-    <Content Include="OfficeCustomization\x64\Application Files\HySpell_3_0_0_0\Microsoft.Office.Tools.Common.v4.0.Utilities.dll.deploy" />
-    <Content Include="OfficeCustomization\x64\Application Files\HySpell_3_0_0_0\Microsoft.Office.Tools.Word.v4.0.Utilities.dll.deploy" />
-    <Content Include="OfficeCustomization\x64\Application Files\HySpell_3_0_0_0\NHunspell.dll.deploy" />
-    <Content Include="OfficeCustomization\x64\HySpell.vsto" />
-    <Content Include="OfficeCustomization\x64\Office2007PIARedist\o2007pia.msi" />
-    <Content Include="OfficeCustomization\x64\setup.exe" />
-    <Content Include="OfficeCustomization\x86\Application Files\HySpell_3_0_0_0\Hunspellx64.dll.deploy" />
-    <Content Include="OfficeCustomization\x86\Application Files\HySpell_3_0_0_0\Hunspellx86.dll.deploy" />
-    <Content Include="OfficeCustomization\x86\Application Files\HySpell_3_0_0_0\HySpell.dll.deploy" />
-    <Content Include="OfficeCustomization\x86\Application Files\HySpell_3_0_0_0\HySpell.dll.manifest" />
-    <Content Include="OfficeCustomization\x86\Application Files\HySpell_3_0_0_0\HySpell.vsto" />
-    <Content Include="OfficeCustomization\x86\Application Files\HySpell_3_0_0_0\HySpellEncoder.dll.deploy" />
-    <Content Include="OfficeCustomization\x86\Application Files\HySpell_3_0_0_0\Microsoft.Office.Tools.Common.v4.0.Utilities.dll.deploy" />
-    <Content Include="OfficeCustomization\x86\Application Files\HySpell_3_0_0_0\Microsoft.Office.Tools.Word.v4.0.Utilities.dll.deploy" />
-    <Content Include="OfficeCustomization\x86\Application Files\HySpell_3_0_0_0\NHunspell.dll.deploy" />
-    <Content Include="OfficeCustomization\x86\HySpell.vsto" />
-    <Content Include="OfficeCustomization\x86\Office2007PIARedist\o2007pia.msi" />
-    <Content Include="OfficeCustomization\x86\setup.exe" />
-    <Content Include="RequiredFiles\setup.exe" />
-    <Content Include="RequiredFiles\SetupForRequiredFiles.msi" />
+    <Content Include="OfficeCustomization\x64\Application Files\HySpell_3_0_0_0\Hunspellx64.dll.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="OfficeCustomization\x64\Application Files\HySpell_3_0_0_0\Hunspellx86.dll.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="OfficeCustomization\x64\Application Files\HySpell_3_0_0_0\HySpell.dll.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="OfficeCustomization\x64\Application Files\HySpell_3_0_0_0\HySpell.dll.manifest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="OfficeCustomization\x64\Application Files\HySpell_3_0_0_0\HySpell.vsto">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="OfficeCustomization\x64\Application Files\HySpell_3_0_0_0\HySpellEncoder.dll.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="OfficeCustomization\x64\Application Files\HySpell_3_0_0_0\Microsoft.Office.Tools.Common.v4.0.Utilities.dll.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="OfficeCustomization\x64\Application Files\HySpell_3_0_0_0\Microsoft.Office.Tools.Word.v4.0.Utilities.dll.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="OfficeCustomization\x64\Application Files\HySpell_3_0_0_0\NHunspell.dll.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="OfficeCustomization\x64\HySpell.vsto">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="OfficeCustomization\x64\Office2007PIARedist\o2007pia.msi">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="OfficeCustomization\x64\setup.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="OfficeCustomization\x86\Application Files\HySpell_3_0_0_0\Hunspellx64.dll.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="OfficeCustomization\x86\Application Files\HySpell_3_0_0_0\Hunspellx86.dll.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="OfficeCustomization\x86\Application Files\HySpell_3_0_0_0\HySpell.dll.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="OfficeCustomization\x86\Application Files\HySpell_3_0_0_0\HySpell.dll.manifest">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="OfficeCustomization\x86\Application Files\HySpell_3_0_0_0\HySpell.vsto">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="OfficeCustomization\x86\Application Files\HySpell_3_0_0_0\HySpellEncoder.dll.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="OfficeCustomization\x86\Application Files\HySpell_3_0_0_0\Microsoft.Office.Tools.Common.v4.0.Utilities.dll.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="OfficeCustomization\x86\Application Files\HySpell_3_0_0_0\Microsoft.Office.Tools.Word.v4.0.Utilities.dll.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="OfficeCustomization\x86\Application Files\HySpell_3_0_0_0\NHunspell.dll.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="OfficeCustomization\x86\HySpell.vsto">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="OfficeCustomization\x86\Office2007PIARedist\o2007pia.msi">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="OfficeCustomization\x86\setup.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RequiredFiles\setup.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RequiredFiles\SetupForRequiredFiles.msi">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="OfficeCustomizationOL\x64\Application Files\HySpellOL_3_0_0_0\Hunspellx64.dll.deploy">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

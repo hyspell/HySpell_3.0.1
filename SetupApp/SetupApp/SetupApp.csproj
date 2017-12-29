@@ -14,7 +14,7 @@
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>C:\HarosDir\Tools\Dictionaries\SetupAppDeployment\</PublishUrl>
+    <PublishUrl>C:\git\DeployFiles\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -28,7 +28,7 @@
     <ProductName>HySpell Setup and Diagnostics 3.0</ProductName>
     <PublisherName>HySpell</PublisherName>
     <AutorunEnabled>true</AutorunEnabled>
-    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationRevision>5</ApplicationRevision>
     <ApplicationVersion>3.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -223,6 +223,24 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="OfficeCustomizationOL\x86\Office2007PIARedist\o2007pia.msi">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="OfficeCustomizationOL\x86\Application Files\HySpellOL_3_0_0_0\Microsoft.Office.Tools.Outlook.dll.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="OfficeCustomizationOL\x86\Application Files\HySpellOL_3_0_0_0\Microsoft.Office.Tools.v4.0.Framework.dll.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="OfficeCustomizationOL\x86\Application Files\HySpellOL_3_0_0_0\Microsoft.VisualStudio.Tools.Applications.Runtime.dll.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="OfficeCustomizationOL\x64\Application Files\HySpellOL_3_0_0_0\Microsoft.Office.Tools.Outlook.dll.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="OfficeCustomizationOL\x64\Application Files\HySpellOL_3_0_0_0\Microsoft.Office.Tools.v4.0.Framework.dll.deploy">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="OfficeCustomizationOL\x64\Application Files\HySpellOL_3_0_0_0\Microsoft.VisualStudio.Tools.Applications.Runtime.dll.deploy">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <None Include="packages.config" />

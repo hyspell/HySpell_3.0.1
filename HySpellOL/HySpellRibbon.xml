@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_Load">
+  <ribbon>
+    <tabs>
+      <tab idMso="TabReviewWord">
+        <group id="HySpell" label="HySpell" insertAfterMso="GroupProofing">
+          <splitButton id="splitBtnHySpell" size="large">
+            <button id="toggleButton1"
+                        label="Armenian Spelling"
+                        screentip="Check Armenian Spelling (Ուղղագրել)"
+                        onAction="OnClickHySpell"
+                        getImage="GetImage"
+                        getEnabled="IsEnabled" />
+            <menu id="mnuHySpell" screentip="HySpell" supertip="Հայերէն Լեզուի Ուղղագրիչ, Բառարան եւ փոխարկիչ" getEnabled="IsEnabled">
+              <button id="btnCheckSpelling" label="Check Armenian Spelling (Ուղղագրել)" onAction="OnCheckSpelling" getImage="GetImage"  getEnabled="IsEnabled" />
+              <button id="btnThesaurus" label="Thesaurus (Բառագանձ)..." onAction="OnClickThesaurus" getImage="GetImage"  getEnabled="IsEnabled" />
+              <menuSeparator/>
+              <button id="btnHySpellOptions" label="Options (Ընտրանք)..." onAction="OnClickOptions" getImage="GetImage"  getEnabled="IsEnabled"/>
+            </menu>
+          </splitButton>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+
+  <contextMenus>    
+    <contextMenu idMso="ContextMenuText">
+      <button id="LookupMenuText" label="Look Up (Բառարան)" insertBeforeMso="Cut" onAction="OnLookUpAction" />
+      <dynamicMenu id="MyDynamicMenu" tag="MyDynamicMenu" label="Spell (Ուղղագրել)" insertBeforeMso="Cut" getContent="GetContent" />
+      <menuSeparator id="SeparatorText" insertBeforeMso="Cut" />
+    </contextMenu>
+    <contextMenu idMso="ContextMenuTextTable">
+      <button id="LookupMenuTextTable" label="Look Up (Բառարան)" insertBeforeMso="Cut" onAction="OnLookUpAction" />
+      <dynamicMenu id="MyDynamicMenuTextTable" tag="MyDynamicMenu" label="Spell (Ուղղագրել)" insertBeforeMso="Cut" getContent="GetContent" />
+      <menuSeparator id="SeparatorTextTable" insertBeforeMso="Cut" />
+    </contextMenu>
+    <contextMenu idMso="ContextMenuHyperlink">
+      <button id="LookupMenuHyperlink" label="Look Up (Բառարան)" insertBeforeMso="Cut" onAction="OnLookUpAction" />
+      <dynamicMenu id="MyDynamicMenuHyperlink" tag="MyDynamicMenu" label="Spell (Ուղղագրել)" insertBeforeMso="Cut" getContent="GetContent" />
+      <menuSeparator id="SeparatorHyperlink" insertBeforeMso="Cut" />
+    </contextMenu>
+    <contextMenu idMso="ContextMenuList">
+      <button id="LookupMenuList" label="Look Up (Բառարան)" insertBeforeMso="Cut" onAction="OnLookUpAction" />
+      <dynamicMenu id="MyDynamicMenuList" tag="MyDynamicMenu" label="Spell (Ուղղագրել)" insertBeforeMso="Cut" getContent="GetContent" />
+      <menuSeparator id="SeparatorList" insertBeforeMso="Cut" />
+    </contextMenu>
+    <contextMenu idMso="ContextMenuListTable">
+      <button id="LookupMenuListTable" label="Look Up (Բառարան)" insertBeforeMso="Cut" onAction="OnLookUpAction" />
+      <dynamicMenu id="MyDynamicMenuListTable" tag="MyDynamicMenu" label="Spell (Ուղղագրել)" insertBeforeMso="Cut" getContent="GetContent" />
+      <menuSeparator id="SeparatorListTable" insertBeforeMso="Cut" />
+    </contextMenu>
+    <contextMenu idMso="ContextMenuHeading">
+      <button id="LookupMenuHeading" label="Look Up (Բառարան)" insertBeforeMso="Cut" onAction="OnLookUpAction" />
+      <dynamicMenu id="MyDynamicMenuHeading" tag="MyDynamicMenu" label="Spell (Ուղղագրել)" insertBeforeMso="Cut" getContent="GetContent" />
+      <menuSeparator id="SeparatorHeading" insertBeforeMso="Cut" />
+    </contextMenu>
+    <contextMenu idMso="ContextMenuHeadingTable">
+      <button id="LookupMenuHeadingTable" label="Look Up (Բառարան)" insertBeforeMso="Cut" onAction="OnLookUpAction" />
+      <dynamicMenu id="MyDynamicMenuHeadingTable" tag="MyDynamicMenu" label="Spell (Ուղղագրել)" insertBeforeMso="Cut" getContent="GetContent" />
+      <menuSeparator id="SeparatorHeadingTable" insertBeforeMso="Cut" />
+    </contextMenu>  
+    
+    <contextMenu idMso="ContextMenuFieldAutoSignatureList">
+      <menuSeparator id="SeparatorFieldAutoSignatureList" />
+      <button id="LookupMenuFieldAutoSignatureList" label="Look Up (Բառարան)" onAction="OnLookUpAction" />
+      <dynamicMenu id="MyDynamicMenuFieldAutoSignatureList" tag="MyDynamicMenu" label="Spell (Ուղղագրել)" getContent="GetContent" />
+    </contextMenu>
+
+    <contextMenu idMso="ContextMenuReadOnlyMailText">
+      <button id="MyDynamicMenuReadOnlyMailText" label="Look Up (Բառարան)" insertBeforeMso="Copy" onAction="OnLookUpAction" />
+      <menuSeparator id="SeparatorReadOnlyMailText" insertBeforeMso="Copy" />
+    </contextMenu>
+    <contextMenu idMso="ContextMenuReadOnlyMailTextTable">
+      <button id="MyDynamicMenuReadOnlyMailTextTable" label="Look Up (Բառարան)" insertBeforeMso="Copy" onAction="OnLookUpAction" />
+      <menuSeparator id="SeparatorReadOnlyMailTextTable" />
+    </contextMenu>
+    <contextMenu idMso="ContextMenuReadOnlyMailList">
+      <button id="MyDynamicMenuReadOnlyMailList" label="Look Up (Բառարան)" insertBeforeMso="Copy" onAction="OnLookUpAction" />
+      <menuSeparator id="SeparatorReadOnlyMailList" insertBeforeMso="Copy" />
+    </contextMenu>
+    <contextMenu idMso="ContextMenuReadOnlyMailListTable">
+      <button id="MyDynamicMenuReadOnlyMailListTable" label="Look Up (Բառարան)" insertBeforeMso="Copy" onAction="OnLookUpAction" />
+      <menuSeparator id="SeparatorReadOnlyMailListTable" />
+    </contextMenu>
+    <contextMenu idMso="ContextMenuReadOnlyMailHeading">
+      <button id="MyDynamicMenuReadOnlyMailHeading" label="Look Up (Բառարան)" insertBeforeMso="Copy" onAction="OnLookUpAction" />
+      <menuSeparator id="SeparatorReadOnlyMailHeading" insertBeforeMso="Copy" />
+    </contextMenu>
+    <contextMenu idMso="ContextMenuReadOnlyMailHeadingTable">
+      <button id="MyDynamicMenuReadOnlyMailHeadingTable" label="Look Up (Բառարան)" insertBeforeMso="Copy" onAction="OnLookUpAction" />
+      <menuSeparator id="SeparatorReadOnlyMailHeadingTable" />
+    </contextMenu>
+    
+  </contextMenus>
+</customUI>
+

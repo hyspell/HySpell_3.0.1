@@ -11,6 +11,13 @@ Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupForRequiredFiles", "Se
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HySpellOL", "HySpellOL\HySpellOL.csproj", "{9300750F-F73D-443D-9A5B-A1A414394B49}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4B2DCE5A-ED1C-4E1A-831D-40B895FB244E}"
+	ProjectSection(SolutionItems) = preProject
+		image001.png = image001.png
+		LICENSE.md = LICENSE.md
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		64|Any CPU = 64|Any CPU

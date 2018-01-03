@@ -193,9 +193,6 @@
   -->
   <ItemGroup>
     <Reference Include="Accessibility" />
-    <Reference Include="HySpellEncoder">
-      <HintPath>DLL\HySpellEncoder.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.Office.Interop.Outlook, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
@@ -297,7 +294,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <None Include="DLL\HySpellEncoder.dll.metagen" />
     <Content Include="DLL\x64\HySpellEncoder.dll.metagen" />
     <Content Include="DLL\x86\HySpellEncoder.dll.metagen" />
     <Content Include="DLL\x86\NHunspell.dll.config" />
@@ -329,8 +325,6 @@
   <ItemGroup>
     <Content Include="DLL\Hunspellx64.dll" />
     <Content Include="DLL\Hunspellx86.dll" />
-    <Content Include="DLL\HySpellEncoder.dll" />
-    <Content Include="DLL\HySpellEncoder.pdb" />
     <Content Include="DLL\NHunspell.dll" />
     <Content Include="DLL\NHunspell.pdb" />
     <Content Include="DLL\x64\Hunspellx64.dll" />
@@ -363,6 +357,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\HySpellOptions.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HySpellEncoder\HySpellEncoder\HySpellEncoder.vcxproj">
+      <Project>{cafbeb52-e97a-463f-905e-782ffca12861}</Project>
+      <Name>HySpellEncoder</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -14,7 +14,7 @@
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>C:\git\DeployFiles\</PublishUrl>
+    <PublishUrl>C:\git\DeployFiles\DeployFiles\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -28,7 +28,7 @@
     <ProductName>HySpell Setup and Diagnostics 3.0</ProductName>
     <PublisherName>HySpell</PublisherName>
     <AutorunEnabled>true</AutorunEnabled>
-    <ApplicationRevision>5</ApplicationRevision>
+    <ApplicationRevision>6</ApplicationRevision>
     <ApplicationVersion>3.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -245,9 +245,6 @@
     <Content Include="OfficeCustomizationOL\x64\HySpellOL.vsto">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="OfficeCustomizationOL\x64\Office2007PIARedist\o2007pia.msi">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="OfficeCustomizationOL\x86\Application Files\HySpellOL_3_0_0_0\Hunspellx64.dll.deploy">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -276,9 +273,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="OfficeCustomizationOL\x86\HySpellOL.vsto">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="OfficeCustomizationOL\x86\Office2007PIARedist\o2007pia.msi">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="OfficeCustomizationOL\x86\Application Files\HySpellOL_3_0_0_0\Microsoft.Office.Tools.Outlook.dll.deploy">

@@ -188,10 +188,6 @@
      This sections specifies references for the project.
   -->
   <ItemGroup>
-    <Reference Include="HySpellEncoder, Version=1.0.6024.901, Culture=neutral, processorArchitecture=x86">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>DLL\HySpellEncoder.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.Office.Interop.Word, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
       <EmbedInteropTypes>True</EmbedInteropTypes>
@@ -313,15 +309,12 @@
     </Compile>
     <Compile Include="ThisAddIn.cs">
       <SubType>Code</SubType>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
     <None Include="ThisAddIn.Designer.xml">
       <DependentUpon>ThisAddIn.cs</DependentUpon>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <Compile Include="ThisAddIn.Designer.cs">
       <DependentUpon>ThisAddIn.Designer.xml</DependentUpon>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
     <AppDesigner Include="Properties\" />
   </ItemGroup>
@@ -405,6 +398,12 @@
     <Content Include="Hunspellx86.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HySpellEncoder\HySpellEncoder\HySpellEncoder.vcxproj">
+      <Project>{cafbeb52-e97a-463f-905e-782ffca12861}</Project>
+      <Name>HySpellEncoder</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

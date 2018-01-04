@@ -294,9 +294,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <Content Include="DLL\x64\HySpellEncoder.dll.metagen" />
-    <Content Include="DLL\x86\HySpellEncoder.dll.metagen" />
-    <Content Include="DLL\x86\NHunspell.dll.config" />
     <None Include="HySpellOL_TemporaryKey.pfx" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -327,17 +324,6 @@
     <Content Include="DLL\Hunspellx86.dll" />
     <Content Include="DLL\NHunspell.dll" />
     <Content Include="DLL\NHunspell.pdb" />
-    <Content Include="DLL\x64\Hunspellx64.dll" />
-    <Content Include="DLL\x64\HySpellEncoder.dll" />
-    <Content Include="DLL\x64\HySpellEncoder.pdb" />
-    <Content Include="DLL\x64\NHunspell.dll" />
-    <Content Include="DLL\x64\NHunspell.pdb" />
-    <Content Include="DLL\x86\Hunspellx86.dll" />
-    <Content Include="DLL\x86\HySpellEncoder.dll" />
-    <Content Include="DLL\x86\HySpellEncoder.pdb" />
-    <Content Include="DLL\x86\NHunspell.dll" />
-    <Content Include="DLL\x86\NHunspell.pdb" />
-    <Content Include="DLL\x86\NHunspell.XML" />
     <Content Include="Hunspellx64.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

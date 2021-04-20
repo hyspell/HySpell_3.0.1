@@ -1,9 +1,7 @@
 <h1>HySpell Armenian Spellchecker [ <a href="http://www.hyspell.com">www.hyspell.com</a> ]</h1>
 <p><a href="#Introduction">Introduction</a><br>
 <a href="#GettingStarted">Getting Started and Setting up the Visual Studio Solution</a><br>
-<a href="#LinkToBinaries">Links to HySpell Spellchecker Installers</a><br>
-<a href="#Liguistics">Linguistic Guidelines for Further Development</a><br>
-<a href="#Funding">Funding and Community Support</a><br></p>
+<a href="#LinkToBinaries">Links to HySpell Spellchecker Installers</a><br></p>
 <h3><a name="#Introduction">Introduction</a></h3>
 <p>The current HySpell GitHub project introduces the open source release of the actual HySpell Armenian Spellchecker Microsoft Office Add-in tool. The repository contains the complete source code of the latest 3.0.1.0 release, the binaries of which were previously released only in commercial package form.</p>
 <p>The main goal of the current software package, historically speaking, was to

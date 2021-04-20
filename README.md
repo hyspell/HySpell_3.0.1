@@ -139,11 +139,4 @@ other auxiliary support files.</ul>
 <a href="http://www.hyspell.com/Free/20170601/hyspellarmenianspellingopenofficero_2.4.2.oxt">hyspellarmenianspellingopenofficero_2.4.2.oxt</a></ul>
 <ul><b>Microsft Office  Word and Outlook 2010 (or above, Windows only) - Size: 36.3 MB</b><br>
 <a href="http://www.hyspell.com/Free/20170601/hyspell30installerwo.exe">hyspell30installerwo.exe</a></ul>
-<h3><a name="user-content-Liguistics">Linguistic Guidelines for Further Development</a></h3>
-<p><i>(todo)</i></p>
-<h3><a name="user-content-Funding">Community Support and Project Sponsorship</a></h3>
-<p>For almost 9 years, HySpell was developed, maintained and funded on the sole and limited resources of the author. Without the encouragment and the support of the Armenian community, this essential tool in particular, and the advancement and survival of the Armenian language in general, will only remain a few daring impulses in the long chronical history of a very ancient and beautiful language.
-</p><br/><br/>
-<sub>with partial support from the <a href="https://gulbenkian.pt/en/">Calouste Gulbenkian Foundation</a><br/>
-<img src="http://www.nayiri.com/images/logos/CalousteGulbenkianFoundation_logo_2014_150dpi.png" width="190"  height="51">
-</sub>
+
